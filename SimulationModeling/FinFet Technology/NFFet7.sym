@@ -1,0 +1,46 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=nmos
+model=BSIMCMG_osdi_N
+spiceprefix=Nnmos
+format="@name @pinlist @model nfin=@nfin"
+template="name=Nnmos model=BSIMCMG_osdi_N nfin=1"}
+V {}
+S {type=nmos
+model=BSIMCMG_osdi_N
+spiceprefix=N
+format="@name @pinlist @model"
+template="name=N1 model=BSIMCMG_osdi_N"
+}
+E {}
+L 4 103.75 -23.75 103.75 -13.75 {}
+L 4 103.75 28.75 103.75 38.75 {}
+L 4 88.75 28.75 103.75 28.75 {}
+L 4 88.75 -13.75 88.75 28.75 {}
+L 4 88.75 -13.75 103.75 -13.75 {}
+L 4 93.75 -11.25 93.75 13.75 {}
+L 4 83.75 -1.25 83.75 23.75 {}
+L 4 88.75 23.75 93.75 21.25 {}
+L 4 88.75 18.75 93.75 21.25 {}
+L 4 83.75 -11.25 93.75 -11.25 {}
+L 4 73.75 6.25 83.75 6.25 {}
+L 4 83.75 -11.25 83.75 -1.25 {}
+L 4 93.75 21.25 103.75 21.25 {}
+L 4 103.75 21.25 106.25 21.25 {}
+B 5 102.5 37.5 105 40 {name=D
+dir=inout}
+B 5 72.5 5 75 7.5 {name=G
+dir=inout}
+B 5 102.5 -25 105 -22.5 {name=S
+dir=inout}
+B 5 105 20 107.5 22.5 {name=B
+dir=inout}
+T {@name
+@symname
+@nfin
+} 105 -20 0 0 0.15 0.15 {}
+T {@#2:pinnumber} 101.25 -35 0 0 0.15 0.15 {}
+T {@#0:pinnumber} 101.25 42.5 0 0 0.15 0.15 {}
+T {@#1:pinnumber} 66.25 -3.75 0 0 0.15 0.15 {}
+T {@#3:pinnumber} 102.5 10 0 0 0.15 0.15 {}
