@@ -95,7 +95,7 @@ Ensure you have a working Python environment on your local machine. It is recomm
 
 ## The XSchem Environment 🎨
 
-The Xschem environment is designed for effective schematic development and spice simulations. It supports simulation of circuits with up to **114 variables** using NGSpice BSIM-CMG integration.
+The Xschem environment is designed for effective schematic development and spice simulations. It supports simulation of transistors with up to **114 variables** using NGSpice BSIM-CMG integration.
 
 ### Key Components:
 
