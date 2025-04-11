@@ -104,12 +104,12 @@ The Xschem environment is designed for effective schematic development and spice
    - **Tip:** Make sure all connections terminate in the middle of the red pads on each transistor.
 
 2. **Finfet Model:**
-   - The Finfet model is derived from the Arizona State University ASAP PDK.
+   - The Finfet model is derived from the Arizona State University ASAP PDK. (https://github.com/The-OpenROAD-Project/asap7) 
    - Spice files have been modified for compatibility with NGSpice.
    - **Important:** Ensure that the associated spice files are located in the NGSpice local run directory.
 
 3. **Spice Symbols:**
-   - In Xschem, spice commands are output on the local UI relative to the circuit layout.
+   - In Xschem, spice commands are on the local UI relative to the circuit layout.
    - Access the "commands" symbol through the “place part” tool.
    - **Note:** Most relevant circuit components can be found in the `ngspice` directory within the parts tool.
 
@@ -121,10 +121,10 @@ The Xschem environment is designed for effective schematic development and spice
    - Use the example schematics provided to familiarize yourself with the workflow.
    - Confirm that the spice file and Finfet symbol are correctly placed in their respective directories.
    - In Xschem, click **Netlist** and then **Simulate** to automatically start the simulation.
-   - **Important:** It is recommended to run the behavioral schematic first as more complex simulations may take several days.
+   - **Important:** It is recommended to run the behavioral schematic (vs. transient sweep) first as more complex simulations may take several days.
 
 2. **Data Output:**
-   - After a behavioral simulation (e.g., for a configuration like "say-besrour"), a circuit sample text file will be generated on your desktop.
+   - After a behavioral simulation (e.g., for a configuration like "besrourbehavior"), a circuit sample text file will be generated on your desktop.
    - You may need to modify the output directory in the spice command symbol.
 
 3. **Data Analysis:**
@@ -142,4 +142,4 @@ Email: [logan.c.larsh-1@ou.edu](mailto:logan.c.larsh-1@ou.edu)
 
 ---
 
-Thank you for participating in the Neuronal Finfet Research Project! 😊 Enjoy exploring and simulating the advanced FinFET neuron models.
+Thank you for participating in the University of Oklahoma Neuronal Finfet Research Project! 😊 Enjoy exploring and simulating!
