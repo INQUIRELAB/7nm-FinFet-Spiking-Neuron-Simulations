@@ -1,7 +1,7 @@
 # University of Oklahoma 7nm Finfet Neuron Research Project 🚀
 
 Welcome to the GitHub repository for the **University of Oklahoma 7nm Finfet Neuron Research Project**.  
-Please note that this project adheres to the **MIT License**. All public exposure of files related to this work must include proper citations to the original poster. Any citations to this repository should reference:  
+This repository is released under the **INQUIRE Lab Academic Research License** (see `LICENSE`). Non-commercial academic use only. Commercial use, redistribution, and derivative works require prior written permission, and no patent rights are granted.
 **Logan Larsh - University of Oklahoma - Inquire Labs**.
 
 ---
